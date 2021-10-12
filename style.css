@@ -13,15 +13,14 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   min-height: 100vh;
-  margin: 20px;
+  padding: 20px;
 }
 
 form {
   display: flex;
   align-items: center;
-  max-width: 360px;
   margin-bottom: 50px;
 }
 
@@ -37,7 +36,7 @@ select {
 
 input {
   padding: 5px 10px;
-  max-width: 120px;
+  max-width: 130px;
 }
 
 button {
@@ -54,10 +53,27 @@ select {
 }
 
 .generated {
-  max-width: 500px;
+  max-width: 800px;
 }
 
 .generated p {
   margin: 20px 0;
   font-size: 18px;
+  text-indent: 30px;
+}
+
+@media screen and (max-width: 410px) {
+  form {
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+    flex-direction: column;
+  }
+
+  input,
+  button,
+  select {
+    margin: 10px 0px;
+    width: 130px;
+  }
 }
