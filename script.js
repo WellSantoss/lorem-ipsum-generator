@@ -29,3 +29,5 @@ btnGenerate.addEventListener("click", (e) => {
   divGenerated.innerHTML = "";
   generate(+inputAmount.value, inputType.value);
 });
+
+generate(3, "paragraphs");
