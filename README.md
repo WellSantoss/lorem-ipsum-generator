@@ -2,7 +2,8 @@
 
 ## Sobre
 
-Gerador de texto Lorem Ipsum
+Gerador de texto Lorem Ipsum utilizando a dependência lorem-ipsum.
+É muito utilizado para preencher espaços em publicações, layouts, etc, antes da inserção do conteúdo real.
 
 ---
 
