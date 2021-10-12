@@ -1,0 +1,19 @@
+{
+  "name": "lorem-ipsum-generator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "lorem-ipsum": "^2.0.4"
+  },
+  "devDependencies": {
+    "webpack-cli": "^4.9.0",
+    "webpack": "^5.58.1"
+  },
+  "scripts": {
+    "dev": "webpack --mode development --watch --entry ./script.js -o ./",
+    "build": "webpack --mode production --entry ./script.js -o ./"
+  },
+  "author": "",
+  "license": "ISC"
+}
